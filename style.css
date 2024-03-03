@@ -1,0 +1,119 @@
+.header{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    background-color: rgb(168, 253, 253);
+
+    
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+    
+}
+
+.main_part{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:flex-start;
+    padding: 30px;
+    width: 70vw;
+    height:20vh ;
+    background-color: rgb(217, 191, 251);
+   
+}
+
+.lateral_area{
+   
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-basis: 30vw;
+    padding: 30px;
+    background-color: rgb(78, 78, 222);
+    
+}
+.footer{
+    
+    display: flex; 
+    align-items:center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100vw;
+    height: 20vh;
+    gap:0.5vw;
+    background-color: rgb(168, 253, 253);
+    
+
+}
+.section{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding: 45px;
+    margin: 18px;
+    width: 30vw;
+    background-color: aquamarine;
+     
+}
+
+ 
+.block{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row ;
+    width: 33vw;
+    height: 15vh;
+    background-color: rgba(176, 60, 238, 0.625);
+    
+
+}
+
+.main1{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 70vw;
+    background-color: rgb(217, 191, 251);
+    
+    
+}
+
+.blocks{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: row;
+    flex-wrap:wrap ;
+    gap: 20px;
+    
+}
+
+#block3{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 67.1vw;
+    height: 26vh;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+p{
+    font-weight: bold;
+} 
+
+/* Увеличиваем масштаб border: 1px solid rebeccapurple;   
+                      */
